@@ -33,13 +33,50 @@ header
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: bold;
-  border-bottom: 3px solid transparent;
 }
 
-.main-nav a:hover {
-  border-bottom: 3px solid black;
+.main-nav a:hover
+{
+  border-bottom: 2px solid black;
 }
 
-.topnav a.active {
-  border-bottom: 3px solid black;
+.main-nav a.active
+{
+  border-bottom: 2px solid black;
+}
+
+body
+{
+  font-family: "Roboto", sans-serif;
+}
+
+.name
+{
+  position: absolute;
+  top: 28%;
+  left: 40%;
+}
+
+.description
+{
+  position: absolute;
+  top: 36%;
+  margin-left: 525px;
+}
+
+
+h1
+{
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2
+{
+  color: black;
+  font-size: 23px;
+  text-align: center;
+  font-weight: lighter;
 }
