@@ -15,7 +15,7 @@ header
 
 .main-nav
 {
-  position: absolute;
+  position: fixed;
   left: 35%;
   list-style: none;
   margin-top: 30px;
@@ -55,7 +55,7 @@ body
 
 .name
 {
-  position: absolute;
+  position: fixed;
   margin-left: 31%;
   margin-top: 220px;
   animation: fadein 2s;
@@ -68,7 +68,7 @@ body
 
 .description
 {
-  position: absolute;
+  position: fixed;
   left: 52%;
   margin-top: 220px;
   animation: fadein 2s;
@@ -76,7 +76,7 @@ body
 
 .line
 {
-  position: absolute;
+  position: fixed;
   margin-left: 645px;
   margin-top: 217px;
   animation: fadein 2s;
@@ -84,7 +84,7 @@ body
 
 .Pinterest
 {
-  position: absolute;
+  position: fixed;
   margin-left: 593px;
   margin-top: 273px;
   animation: fadein 2s;
